@@ -94,8 +94,8 @@ const Register = () => {
         formData.append("password", password);
 
         try {
-            console.log("Sending registration request to API"); // Debug message
-            const response = await axios.post("https://sample-backend1.azurewebsites.net/api/v1/employeeManager/register", formData, {
+            console.log("Sending registration request to API"); // Debug messages
+            const response = await axios.post("https://emsback.azurewebsites.net/api/v1/employeeManager/register", formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
