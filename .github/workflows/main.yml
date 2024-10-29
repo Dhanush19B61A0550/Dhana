@@ -1,7 +1,6 @@
 name: Deploy React App to Azure app service
 
 on:
-
   push:
     branches:
       - main  # Adjust to your default branch
